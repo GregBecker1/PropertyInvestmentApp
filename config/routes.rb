@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  resources :investment_properties
   resources :users
 
-  root 'application#greeting'
+  root 'users#index'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
