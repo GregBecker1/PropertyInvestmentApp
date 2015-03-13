@@ -1,0 +1,1 @@
+json.extract! @investment_property, :id, :mlsNum, :analysisDate, :listedDate, :soldDate, :address, :listPrice, :downPayment, :totGrossInc, :vacCrdtAllow, :goi, :totOpExp, :noi, :deprec, :cashOnCashRet, :principleRed, :apprec, :totROI, :retOnEquity, :grm, :capRate, :debtCoverRatio, :created_at, :updated_at

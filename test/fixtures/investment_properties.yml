@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mlsNum: MyString
+  analysisDate: 2015-03-12
+  listedDate: 2015-03-12
+  soldDate: 2015-03-12
+  address: MyString
+  listPrice: 1.5
+  downPayment: 1.5
+  totGrossInc: 1.5
+  vacCrdtAllow: 1.5
+  goi: 1.5
+  totOpExp: 1.5
+  noi: 1.5
+  deprec: 1.5
+  cashOnCashRet: 1.5
+  principleRed: 1.5
+  apprec: 1.5
+  totROI: 1.5
+  retOnEquity: 1.5
+  grm: 1.5
+  capRate: 1.5
+  debtCoverRatio: 1.5
+
+two:
+  mlsNum: MyString
+  analysisDate: 2015-03-12
+  listedDate: 2015-03-12
+  soldDate: 2015-03-12
+  address: MyString
+  listPrice: 1.5
+  downPayment: 1.5
+  totGrossInc: 1.5
+  vacCrdtAllow: 1.5
+  goi: 1.5
+  totOpExp: 1.5
+  noi: 1.5
+  deprec: 1.5
+  cashOnCashRet: 1.5
+  principleRed: 1.5
+  apprec: 1.5
+  totROI: 1.5
+  retOnEquity: 1.5
+  grm: 1.5
+  capRate: 1.5
+  debtCoverRatio: 1.5

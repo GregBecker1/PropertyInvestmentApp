@@ -1,0 +1,105 @@
+<%= form_for(@investment_property) do |f| %>
+  <% if @investment_property.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@investment_property.errors.count, "error") %> prohibited this investment_property from being saved:</h2>
+
+      <ul>
+      <% @investment_property.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :mlsNum %><br>
+    <%= f.text_field :mlsNum %>
+  </div>
+<div class="field">
+  <%= f.label :user_id %><br>
+  <%= f.text_field :user_id %>
+</div>
+  <div class="field">
+    <%= f.label :analysisDate %><br>
+    <%= f.date_select :analysisDate %>
+  </div>
+  <div class="field">
+    <%= f.label :listedDate %><br>
+    <%= f.date_select :listedDate %>
+  </div>
+  <div class="field">
+    <%= f.label :soldDate %><br>
+    <%= f.date_select :soldDate %>
+  </div>
+  <div class="field">
+    <%= f.label :address %><br>
+    <%= f.text_field :address %>
+  </div>
+  <div class="field">
+    <%= f.label :listPrice %><br>
+    <%= f.text_field :listPrice %>
+  </div>
+  <div class="field">
+    <%= f.label :downPayment %><br>
+    <%= f.text_field :downPayment %>
+  </div>
+  <div class="field">
+    <%= f.label :totGrossInc %><br>
+    <%= f.text_field :totGrossInc %>
+  </div>
+  <div class="field">
+    <%= f.label :vacCrdtAllow %><br>
+    <%= f.text_field :vacCrdtAllow %>
+  </div>
+  <div class="field">
+    <%= f.label :goi %><br>
+    <%= f.text_field :goi %>
+  </div>
+  <div class="field">
+    <%= f.label :totOpExp %><br>
+    <%= f.text_field :totOpExp %>
+  </div>
+  <div class="field">
+    <%= f.label :noi %><br>
+    <%= f.text_field :noi %>
+  </div>
+  <div class="field">
+    <%= f.label :deprec %><br>
+    <%= f.text_field :deprec %>
+  </div>
+  <div class="field">
+    <%= f.label :cashOnCashRet %><br>
+    <%= f.text_field :cashOnCashRet %>
+  </div>
+  <div class="field">
+    <%= f.label :principleRed %><br>
+    <%= f.text_field :principleRed %>
+  </div>
+  <div class="field">
+    <%= f.label :apprec %><br>
+    <%= f.text_field :apprec %>
+  </div>
+  <div class="field">
+    <%= f.label :totROI %><br>
+    <%= f.text_field :totROI %>
+  </div>
+  <div class="field">
+    <%= f.label :retOnEquity %><br>
+    <%= f.text_field :retOnEquity %>
+  </div>
+  <div class="field">
+    <%= f.label :grm %><br>
+    <%= f.text_field :grm %>
+  </div>
+  <div class="field">
+    <%= f.label :capRate %><br>
+    <%= f.text_field :capRate %>
+  </div>
+  <div class="field">
+    <%= f.label :debtCoverRatio %><br>
+    <%= f.text_field :debtCoverRatio %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
