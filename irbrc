@@ -1,0 +1,3 @@
+IRB.conf[:PROMPT_MODE] = :SIMPLE
+IRB.CONF[:AUTO_INDENT_MODE] = false
+
